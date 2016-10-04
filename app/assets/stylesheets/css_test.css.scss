@@ -1,0 +1,70 @@
+@import 'compass';
+
+.main-holder
+{
+    font-size: 15px;
+
+    width: 530px;
+    height: 70px;
+    padding: 10px;
+
+    background-color: #f8f8f8;
+
+    div
+    {
+        float: left;
+
+        height: 50px;
+    }
+
+    .main-item
+    {
+        width: 530px;
+        height: 70px;
+
+        border: solid 1px #f0f0f0;
+        background-image: linear-gradient(#fbfbfb, #f9f9f9);
+
+        .horse-js
+        {
+            width: 50px;
+            height: 50px;
+            margin: 10px;
+
+            background-image: image-url('horse-js.png');
+
+            @include border-radius(5px);
+        }
+        .item-body
+        {
+            width: 420px;
+
+            color: #000;
+
+            p
+            {
+                margin: 0;
+            }
+            .title
+            {
+                font-weight: bold;
+
+                margin-top: 10px;
+            }
+            .link
+            {
+                color: #859dbb;
+            }
+        }
+
+        .item-time
+        {
+            font-size: 13px;
+
+            width: 30px;
+            padding-top: 10px;
+
+            color: #d7d7d7;
+        }
+    }
+}
